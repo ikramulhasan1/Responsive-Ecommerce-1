@@ -12,5 +12,16 @@ body {
 }
 
 .icon-Fonts {
-    font-size: 52px;
+    font-size: 40px !important;
+
+}
+
+.productsStyle:hover {
+    box-shadow: 1px 5px 10px gainsboro !important;
+    transform: translateY(-1px);
+}
+
+.productsCardTitle:hover {
+    color: rgb(255, 56, 30);
+
 }
