@@ -11,9 +11,20 @@ body {
     color: black;
 }
 
+.navbar-toggler,
+.navbar-toggler-icon {
+    color: #F2F4F8 !important;
+    background-color: #F2F4F8;
+    font-size: small;
+}
+
 .icon-Fonts {
     font-size: 40px !important;
+}
 
+.icon-FontsNav {
+    font-size: 24px !important;
+    color: #EF4A23;
 }
 
 .productsStyle:hover {
