@@ -1,3 +1,17 @@
+/* Second navbar bgColor */
+.navColor {
+    background-color: white !important;
+}
+
+.secondNavList {
+    color: #111111;
+    text-decoration: none;
+}
+
+.secondNavList:hover {
+    color: orangered;
+}
+
 /* Card Buy Now button style */
 .card-Buy-Now {
     color: blue !important;
