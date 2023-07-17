@@ -43,3 +43,7 @@
 .card-Compare:hover {
     background-color: rgb(211, 211, 248) !important;
 }
+
+.checkLabel:hover {
+    background-color: rgb(229, 244, 255);
+}

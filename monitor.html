@@ -158,10 +158,271 @@
         <div class="container text-center mt-5">
             <div class="row g-2">
                 <div class="col-lg-2 ">
-                    <div class="p-3  bg-white rounded">
+                    <div class="p-3  bg-white rounded text-start">
                         <div>
-                            <h6>Price Range</h6>
+                            <h6 class="">Price Range</h6>
+                            <input type="range" class="form-range mt-4" id="customRange1">
+
+                            <!-- Price Range Input Section -->
+                            <div class="d-flex justify-content-between mt-2" id="inputRange">
+                                <input class="w-25" type="text" value="0">
+                                <input class="w-25" type="text" value="39,73">
+                            </div>
                         </div>
+                    </div>
+
+                    <!-- Availability Section -->
+                    <div class="accordion accordion-flush mt-2" id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
+                                    aria-expanded="false" aria-controls="flush-collapseOne">
+                                    Availability
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body text-start">
+
+                                    <div class="form-check checkLabel py-1">
+                                        <input class="form-check-input" type="checkbox" value=""
+                                            id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            In Stock
+                                        </label>
+                                    </div>
+                                    <div class="form-check checkLabel py-1">
+                                        <input class="form-check-input" type="checkbox" value=""
+                                            id="flexCheckChecked" checked>
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            Pre Order
+                                        </label>
+                                    </div>
+                                    <div class="form-check checkLabel py-1">
+                                        <input class="form-check-input" type="checkbox" value=""
+                                            id="flexCheckChecked" checked>
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            Up Coming
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Screen Size Section -->
+                    <div class="accordion accordion-flush mt-2" id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseOne2"
+                                    aria-expanded="false" aria-controls="flush-collapseOne2">
+                                    Screen Size
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne2" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body text-start">
+
+                                    <div class="form-check checkLabel py-1">
+                                        <input class="form-check-input" type="checkbox" value=""
+                                            id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            10-14.9 inch
+                                        </label>
+                                    </div>
+                                    <div class="form-check checkLabel py-1">
+                                        <input class="form-check-input" type="checkbox" value=""
+                                            id="flexCheckChecked" checked>
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            15-17 inch
+                                        </label>
+                                    </div>
+                                    <div class="form-check checkLabel py-1">
+                                        <input class="form-check-input" type="checkbox" value=""
+                                            id="flexCheckChecked" checked>
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            18-20 inch
+                                        </label>
+                                    </div>
+                                    <div class="form-check checkLabel py-1">
+                                        <input class="form-check-input" type="checkbox" value=""
+                                            id="flexCheckChecked" checked>
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            21-22 inch
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Brand Section -->
+                    <div class="accordion accordion-flush mt-2" id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseOne3"
+                                    aria-expanded="false" aria-controls="flush-collapseOne3">
+                                    Brand
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne3" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body text-start">
+
+                                    <div class="form-check checkLabel py-1">
+                                        <input class="form-check-input" type="checkbox" value=""
+                                            id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            ASRock
+                                        </label>
+                                    </div>
+                                    <div class="form-check checkLabel py-1">
+                                        <input class="form-check-input" type="checkbox" value=""
+                                            id="flexCheckChecked" checked>
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            Razer
+                                        </label>
+                                    </div>
+                                    <div class="form-check checkLabel py-1">
+                                        <input class="form-check-input" type="checkbox" value=""
+                                            id="flexCheckChecked" checked>
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            Asus
+                                        </label>
+                                    </div>
+                                    <div class="form-check checkLabel py-1">
+                                        <input class="form-check-input" type="checkbox" value=""
+                                            id="flexCheckChecked" checked>
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            Acer
+                                        </label>
+                                    </div>
+                                    <div class="form-check checkLabel py-1">
+                                        <input class="form-check-input" type="checkbox" value=""
+                                            id="flexCheckChecked" checked>
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            XIAOMI
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Resolution Section -->
+                    <div class="accordion accordion-flush mt-2" id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseOne4"
+                                    aria-expanded="false" aria-controls="flush-collapseOne4">
+                                    Resolution
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne4" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body text-start">
+
+                                    <div class="form-check checkLabel py-1">
+                                        <input class="form-check-input" type="checkbox" value=""
+                                            id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            HD or Below
+                                        </label>
+                                    </div>
+                                    <div class="form-check checkLabel py-1">
+                                        <input class="form-check-input" type="checkbox" value=""
+                                            id="flexCheckChecked" checked>
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            FHD
+                                        </label>
+                                    </div>
+                                    <div class="form-check checkLabel py-1">
+                                        <input class="form-check-input" type="checkbox" value=""
+                                            id="flexCheckChecked" checked>
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            2K QHD
+                                        </label>
+                                    </div>
+                                    <div class="form-check checkLabel py-1">
+                                        <input class="form-check-input" type="checkbox" value=""
+                                            id="flexCheckChecked" checked>
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            4K UHD
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Features Section -->
+                    <div class="accordion accordion-flush my-2" id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseOne5"
+                                    aria-expanded="false" aria-controls="flush-collapseOne5">
+                                    Features
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne5" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body text-start">
+
+                                    <div class="form-check checkLabel py-1">
+                                        <input class="form-check-input" type="checkbox" value=""
+                                            id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            Touch
+                                        </label>
+                                    </div>
+                                    <div class="form-check checkLabel py-1">
+                                        <input class="form-check-input" type="checkbox" value=""
+                                            id="flexCheckChecked" checked>
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            Gaming
+                                        </label>
+                                    </div>
+                                    <div class="form-check checkLabel py-1">
+                                        <input class="form-check-input" type="checkbox" value=""
+                                            id="flexCheckChecked" checked>
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            Curved
+                                        </label>
+                                    </div>
+                                    <div class="form-check checkLabel py-1">
+                                        <input class="form-check-input" type="checkbox" value=""
+                                            id="flexCheckChecked" checked>
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            Ultra-Wide
+                                        </label>
+                                    </div>
+                                    <div class="form-check checkLabel py-1">
+                                        <input class="form-check-input" type="checkbox" value=""
+                                            id="flexCheckChecked" checked>
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            Square
+                                        </label>
+                                    </div>
+                                    <div class="form-check checkLabel py-1">
+                                        <input class="form-check-input" type="checkbox" value=""
+                                            id="flexCheckChecked" checked>
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            Speaker
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
                 <div class="col-lg-10">
