@@ -46,3 +46,35 @@ body {
 .navbar-Account:hover {
     color: orangered;
 }
+
+/* Product Card small device responsive */
+@media only screen and (max-width: 600px) {
+    .cardWidth {
+        width: 100% !important;
+    }
+}
+
+
+.footers-Style {
+    background-color: #081621;
+}
+
+.footerFontsColor {
+    color: orangered !important;
+    font-weight: 600;
+}
+
+
+.footerFontsColorHover:hover {
+    color: orangered !important;
+}
+
+.foterMiniRound {
+    border-radius: 60px;
+    padding: 5px 10px;
+}
+
+.foterMiniRound:hover {
+    border-color: orangered !important;
+    background-color: #061018 !important;
+}
