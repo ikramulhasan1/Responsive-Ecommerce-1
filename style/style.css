@@ -36,3 +36,13 @@ body {
     color: rgb(255, 56, 30);
 
 }
+
+
+.navbar-Account {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.navbar-Account:hover {
+    color: orangered;
+}
