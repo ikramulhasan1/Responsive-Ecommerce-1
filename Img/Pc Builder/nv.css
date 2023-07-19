@@ -1,0 +1,51 @@
+/* * {
+    margin: 0% !important;
+} */
+
+body {
+    background-color: white;
+}
+
+.smallText {
+    font-size: 14px;
+    color: black;
+}
+
+.navbar-toggler,
+.navbar-toggler-icon {
+    color: #F2F4F8 !important;
+    background-color: #F2F4F8;
+    font-size: small;
+}
+
+.icon-Fonts {
+    font-size: 40px !important;
+}
+
+.icon-FontsNav {
+    font-size: 24px !important;
+    color: #EF4A23;
+}
+
+.productsStyle:hover {
+    box-shadow: 1px 5px 10px gainsboro !important;
+    transform: translateY(-1px);
+}
+
+.productsCardTitle:hover {
+    color: rgb(255, 56, 30);
+
+}
+/* Second navbar bgColor */
+.navColor {
+    background-color: white !important;
+}
+
+.secondNavList {
+    color: #111111;
+    text-decoration: none;
+}
+
+.secondNavList:hover {
+    color: orangered;
+}
