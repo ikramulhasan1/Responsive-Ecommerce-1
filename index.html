@@ -5,11 +5,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>ECOMMERCE-1</title>
+
+    <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
         rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
         crossorigin="anonymous">
 
+
+    <!-- Bootstrap icon Link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 
     <!-- CSS External File -->
     <link rel="stylesheet" href="./style/style.css">
@@ -25,8 +30,8 @@
         <!-- First Navbar section -->
         <nav class="navbar navbar-expand-lg bg-black p-2">
             <div class="container">
-                <a class="navbar-brand" href="#">
-                    <img src="./Img/Site-Logo/Logo.png" alt="Bootstrap" width="140" height="50">
+                <a class="navbar-brand text-white fw-bolder fs-3" href="#">
+                    eShop
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -38,9 +43,9 @@
 
                     <!-- Nav Search section -->
                     <form class="d-flex" role="search">
-                        <input class="form-control me-2 col-lg-6" type="search" placeholder="Search"
+                        <input class="form-control me-2 col-lg-6 rounded-0" type="search" placeholder="Search"
                             aria-label="Search">
-                        <button class="btn btn-outline-light fw-medium border-2"
+                        <button class="btn btn-outline-light fw-medium border-2 rounded-0"
                             type="submit">Search</button>
                     </form>
 
@@ -50,7 +55,7 @@
                         class="nav nav-pills justify-content-sm-start justify-content-lg-end align-items-center">
 
                         <div class="d-flex align-items-center me-3">
-                            <span><i class="fa-solid fa-gift icon-FontsNav"></i></span>
+                            <span><i class="bi bi-gift-fill icon-FontsNav"></i></span>
                             <li class="nav-item">
                                 <div class="d-flex flex-column justify-content-start m-2">
                                     <a class="nav-link p-0 fw-medium text-white"
@@ -62,21 +67,9 @@
 
                             </li>
                         </div>
+                        
                         <div class="d-flex align-items-center me-3">
-                            <span><i class="fa-solid fa-bolt-lightning icon-FontsNav"></i></span>
-                            <li class="nav-item">
-                                <div class="d-flex flex-column justify-content-start m-2">
-                                    <a class="nav-link p-0 fw-medium text-white" href="#">Gadget
-                                        Fest</a>
-                                    <span class=" fw-medium"
-                                        style="font-size: 12px; color: gainsboro;">Special
-                                        Deals</span>
-                                </div>
-
-                            </li>
-                        </div>
-                        <div class="d-flex align-items-center me-3">
-                            <span><i class="fa-solid fa-user icon-FontsNav"></i></span>
+                            <span><i class="bi bi-person-square icon-FontsNav"></i></span>
                             <li class="nav-item">
                                 <div class="d-flex flex-column justify-content-start m-2">
                                     <a class="nav-link p-0 fw-medium text-white"
@@ -93,13 +86,7 @@
                             </li>
                         </div>
 
-                        <div>
-                            <li class="nav-item">
-                                <a class="nav-link active fw-medium" aria-current="page"
-                                    href="./pc-builder.html">PC
-                                    Builder</a>
-                            </li>
-                        </div>
+                        
 
                     </ul>
                 </div>
@@ -108,7 +95,7 @@
 
 
         <!-- Second Navbar section -->
-        <nav class="navbar navbar-expand-lg p-3 mb-5 navColor">
+        <nav class="navbar navbar-expand-lg p-3 mb-3 navColor">
             <div class="container ">
 
                 <span data-bs-target="#navbarSupportedContent">
@@ -121,33 +108,11 @@
                         <li class="me-3 fw-medium"><a class="secondNavList"
                                 href="./index.html">Home</a>
                         </li>
-                        <li class="me-3 fw-medium"><a class="secondNavList" href="">Desktop</a>
-                        </li>
-                        <li class="me-3 fw-medium"><a class="secondNavList" href="">Laptop</a>
-                        </li>
-                        <li class="me-3 fw-medium"><a class="secondNavList" href="">Component</a>
-                        </li>
+                       
                         <li class="me-3 fw-medium"><a class="secondNavList"
                                 href="./monitor.html">Monitor</a>
                         </li>
-                        <li class="me-3 fw-medium"><a class="secondNavList" href="">Phone</a>
-                        </li>
-                        <li class="me-3 fw-medium"><a class="secondNavList" href="">Tablet</a>
-                        </li>
-                        <li class="me-3 fw-medium"><a class="secondNavList" href="">Office
-                                Equipment</a>
-                        </li>
-                        <li class="me-3 fw-medium"><a class="secondNavList" href="">Camera</a>
-                        </li>
-                        <li class="me-3 fw-medium"><a class="secondNavList" href="">Security</a>
-                        </li>
-                        <li class="me-3 fw-medium"><a class="secondNavList" href="">Networking</a>
-                        </li>
-                        <li class="me-3 fw-medium"><a class="secondNavList" href="">Software</a>
-                        </li>
-                        <li class="me-3 fw-medium"><a class="secondNavList" href="">Server &
-                                Storage</a>
-                        </li>
+                        
                         <li class="me-3 fw-medium"><a class="secondNavList" href="">Accessories</a>
                         </li>
 
@@ -164,9 +129,9 @@
 
     <main class="container p-0">
         <div class="">
-            <div class="row" id="home">
+            <div class="row d-flex justify-content-center" id="home">
                 <!-- Baner Row -->
-                <div class="row g-3 m-0 p-0">
+                <div class="row g-3 m-0 p-0 d-flex justify-content-center">
 
                     <!-- Carousel /Slide banner Image Section -->
                     <div class="col-sm-12 col-lg-9 p-3">
@@ -207,7 +172,8 @@
                             </button>
                         </div>
                     </div>
-                    <div class="row col-sm-12 col-lg-3 p-3">
+                    
+                    <div class="row col-sm-12 col-lg-3 p-3 ">
                         <!-- <div class="p-3 border bg-light">Custom column padding</div> -->
                         <div class="row g-3 m-0 h-50">
 
@@ -248,7 +214,9 @@
         </div>
 
 
-        <!--  -->
+        <!-- Featured Category -->
+        <!-- Featured Category -->
+
         <div class="container text-center mt-4">
             <div class="row g-2">
                 <div class="col">
@@ -262,7 +230,7 @@
 
                         <div class="container text-center">
                             <div class="row row-cols-2 row-cols-lg-6 g-2 g-lg-3">
-                                <div class="col ">
+                                <div class="col-md-8">
                                     <div class="p-4 bg-white rounded shadow-sm ">
                                         <span class=""><i
                                                 class="fa-sharp fa-solid fa-laptop icon-Fonts"></i></span>
@@ -270,7 +238,7 @@
                                             Laptop</p>
                                     </div>
                                 </div>
-                                <div class="col ">
+                                <div class="col-md-8 ">
                                     <div class="p-4 bg-white rounded shadow-sm ">
                                         <span class=""><i
                                                 class="fa-solid fa-battery-three-quarters icon-Fonts"></i></span>
@@ -278,7 +246,7 @@
                                             Laptop Battery</p>
                                     </div>
                                 </div>
-                                <div class="col ">
+                                <div class="col-md-8 ">
                                     <div class="p-4 bg-white rounded shadow-sm ">
                                         <span class=""><i
                                                 class="fa-solid fa-tv icon-Fonts"></i></span>
@@ -286,7 +254,7 @@
                                             TV</p>
                                     </div>
                                 </div>
-                                <div class="col ">
+                                <div class="col-md-8 ">
                                     <div class="p-4 bg-white rounded shadow-sm ">
                                         <span class=""><i
                                                 class="fa-solid fa-mobile-screen icon-Fonts"></i></span>
@@ -294,7 +262,7 @@
                                             Phone</p>
                                     </div>
                                 </div>
-                                <div class="col ">
+                                <div class="col-md-8 ">
                                     <div class="p-4 bg-white rounded shadow-sm ">
                                         <span class=""><i
                                                 class="fa-solid fa-vr-cardboard icon-Fonts"></i></span>
@@ -302,7 +270,7 @@
                                         </p>
                                     </div>
                                 </div>
-                                <div class="col ">
+                                <div class="col-md-8 ">
                                     <div class="p-4 bg-white rounded shadow-sm ">
                                         <span class=""><i
                                                 class="fa-regular fa-clock icon-Fonts"></i></span>
@@ -310,7 +278,7 @@
                                             Smart Watch</p>
                                     </div>
                                 </div>
-                                <div class="col ">
+                                <div class="col-md-8 ">
                                     <div class="p-4 bg-white rounded shadow-sm ">
                                         <span class=""><i
                                                 class="fa-solid fa-camera icon-Fonts"></i></span>
@@ -318,7 +286,7 @@
                                             Action Camera</p>
                                     </div>
                                 </div>
-                                <div class="col ">
+                                <div class="col-md-8 ">
                                     <div class="p-4 bg-white rounded shadow-sm ">
                                         <span class=""><i
                                                 class="fa-solid fa-print icon-Fonts"></i></span>
@@ -326,7 +294,7 @@
                                             Printer</p>
                                     </div>
                                 </div>
-                                <div class="col ">
+                                <div class="col-md-8 ">
                                     <div class="p-4 bg-white rounded shadow-sm ">
                                         <span class=""><i
                                                 class="fa-solid fa-headphones icon-Fonts"></i></span>
@@ -334,7 +302,7 @@
                                             Headphone</p>
                                     </div>
                                 </div>
-                                <div class="col ">
+                                <div class="col-md-8 ">
                                     <div class="p-4 bg-white rounded shadow-sm ">
                                         <span class=""><i
                                                 class="fa-brands fa-bluetooth icon-Fonts"></i></span>
@@ -343,7 +311,7 @@
                                         </p>
                                     </div>
                                 </div>
-                                <div class="col ">
+                                <div class="col-md-8 ">
                                     <div class="p-4 bg-white rounded shadow-sm ">
                                         <span class=""><i
                                                 class="fa-solid fa-gamepad icon-Fonts"></i></span>
@@ -351,7 +319,7 @@
                                             Game Console</p>
                                     </div>
                                 </div>
-                                <div class="col ">
+                                <div class="col-md-8 ">
                                     <div class="p-4 bg-white rounded shadow-sm ">
                                         <span class=""><i
                                                 class="fa-solid fa-charging-station icon-Fonts"></i></span>
@@ -970,7 +938,7 @@
                             class="nav-link p-0 text-light-emphasis footerFontsColorHover">Contact
                             Us</a>
                     </li>
-                    <li class="nav-item mb-2"><a href="./complain.html"
+                    <li class="nav-item mb-2"><a href="#"
                             class="nav-link p-0 footerFontsColor">Complain / Advice</a>
                     </li>
 
@@ -991,7 +959,7 @@
                             class="nav-link p-0 text-light-emphasis ">Email:</a>
                     </li>
                     <li class="nav-item mb-2"><a href="#"
-                            class="nav-link p-0 footerFontsColor">webteam@startechbd.com</a>
+                            class="nav-link p-0 footerFontsColor">webteam@123.com</a>
                     </li>
 
                 </ul>
